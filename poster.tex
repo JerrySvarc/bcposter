@@ -178,10 +178,13 @@ above=bottom,borderColor=maincolor,boxheaderheight=1pt%
 		Low-code programming systems provide a graphical user interface (GUI), through which users can create software elements.
 		Software development using low-code programming systems is increasingly popular and
 		traditional low-code development systems that provide user interface creation functionality primarily provide the \emph{UI-to-data} approach, where developers create user interface elements before populating them with data.
-		However, the data-to-UI approach, where the development process begins with concrete data that drives the creation of corresponding UI elements, remains unexplored as a primary development method.
+		However, the \emph{data-to-UI} approach, where the development process begins with concrete data that drives the creation of corresponding UI elements, remains unexplored as a primary development method.
 		We present the InterfaceSmith prototype programming system, which implements \emph{data-to-UI} as the primary development method for creating web applications' UI elements.
-		The system aims to aid developers in modifying the interface through context menus and generates applications following the Elm architecture. Our evaluation through benchmarks, including a TO-DO list application and tasks from the 7GUIs benchmark suite,
-		demonstrates the system's effectiveness in reducing the amount of code developers need to write while maintaining the ability to implement custom web application functionality.
+
+		\begin{center}
+			\includegraphics[width=0.95\textwidth]{img/UIExample.pdf}
+		\end{center}
+
 	}
 
 	\leftalignedheaderbox{Motivation}{
@@ -217,12 +220,33 @@ above=bottom,borderColor=maincolor,boxheaderheight=1pt%
 		% However, for a "central result box" layout, I suggest changing the `columns` option of the `poster` environment
 		% to a different value, allowing for better ratios between spanning columns.
 	}{
-
+		\todo{Hole-based approach, traversal, example image }
 	}
 	% --------------------------------------------------------------------------------------------------------------------------
 	\leftalignedheaderbox{Experiments}{%
 		name=ssira,column=3,span=3,below=solutionApproach % Note how `above` defines that this box ends exactly above the specified box
 	}{
+
+		\begin{tabular}{|p{3cm}|c|c|c|c|c|}
+			\hline
+			\textbf{Task}   & \textbf{Total} & \textbf{Prep} & \textbf{Custom} & \textbf{Ref.} & \textbf{Success} \\
+			\hline
+			TO-DO List      & 54             & 14            & 40              & N/A           & Yes              \\
+			Counter         & 8              & 4             & 4               & 11            & Yes              \\
+			Temp. Converter & 34             & 6             & 28              & 66            & Yes              \\
+			\hline
+		\end{tabular}
+
+		\begin{tabular}{|p{2.5cm}|c|c|c|}
+			\hline
+			\textbf{Task}   & \textbf{Total} & \textbf{Data Prep (\%)} & \textbf{Custom Logic (\%)} \\
+			\hline
+			TO-DO List      & 54             & 26\%                    & 74\%                       \\
+			Counter         & 8              & 50\%                    & 50\%                       \\
+			Temp. Converter & 34             & 18\%                    & 82\%                       \\
+			\hline
+		\end{tabular}
+
 
 	}
 	% --------------------------------------------------------------------------------------------------------------------------

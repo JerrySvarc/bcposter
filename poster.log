@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.15)  6 FEB 2025 01:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.15)  6 FEB 2025 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -756,6 +756,15 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+
+pdfTeX warning: pdflatex (file ./img/UIExample.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<img/UIExample.pdf, id=33, 1923.94823pt x 1019.18076pt>
+File: img/UIExample.pdf Graphic file (type pdf)
+<use img/UIExample.pdf>
+Package pdftex.def Info: img/UIExample.pdf  used on input line 188.
+(pdftex.def)             Requested size: 296.32484pt x 156.96054pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -765,9 +774,18 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+Package TODO Warning: Hole-based approach, traversal, example image  on input l
+ine 224.
+
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 4726) in paragraph at lines 251--251
+[]\T1/cmr/m/n/10 Temp. Con-
+ []
+
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -783,7 +801,7 @@ df> <./logos/uk-white.pdf
 
 pdfTeX warning: pdflatex (file ./logos/uk-white.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] (./poster.aux
+> <./img/UIExample.pdf>] (./poster.aux
 <Reading QR code for "https://github.com/JerrySvarc/InterfaceSmith" at level 4-
 Q from aux file.>
 
@@ -796,10 +814,10 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17882 strings out of 474116
- 356076 string characters out of 5752736
- 2028187 words of memory out of 5000000
- 39931 multiletter control sequences out of 15000+600000
+ 17891 strings out of 474116
+ 356325 string characters out of 5752736
+ 2035187 words of memory out of 5000000
+ 39940 multiletter control sequences out of 15000+600000
  581585 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,17n,121p,1279b,1092s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -809,10 +827,10 @@ cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/urw/helv
 etic/uhvb8a.pfb>
-Output written on poster.pdf (1 page, 318689 bytes).
+Output written on poster.pdf (1 page, 471938 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
