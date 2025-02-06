@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.15)  6 FEB 2025 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.15)  6 FEB 2025 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,7 +764,7 @@ ersion <1.7>, but at most version <1.5> allowed
 File: img/UIExample.pdf Graphic file (type pdf)
 <use img/UIExample.pdf>
 Package pdftex.def Info: img/UIExample.pdf  used on input line 188.
-(pdftex.def)             Requested size: 296.32484pt x 156.96054pt.
+(pdftex.def)             Requested size: 311.9219pt x 165.2339pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -776,16 +776,11 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 Package TODO Warning: Hole-based approach, traversal, example image  on input l
-ine 224.
+ine 225.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 4726) in paragraph at lines 251--251
-[]\T1/cmr/m/n/10 Temp. Con-
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -827,7 +822,7 @@ cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/urw/helv
 etic/uhvb8a.pfb>
-Output written on poster.pdf (1 page, 471938 bytes).
+Output written on poster.pdf (1 page, 472156 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
